@@ -20,12 +20,12 @@ Additionally to the Printable Instruments panel designs, this repository also co
 
 - [ ] Rings
 - [ ] Clouds
+- [ ] Ripples
 
 **Warning: Unmarked panels are still in development and haven't been ordered/tested yet!**
 
 ### Planned Panels
 
-- Ripples
 - Frames
 - Braids
 
