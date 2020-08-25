@@ -47,11 +47,11 @@ y*: position of helpline (0.5mm stroke)
 
 |        | stroke |  width* | height |
 | ------ | ------ | ------- | ------ |
-| output |  3.0mm | +12.5mm | 14.5mm |
+| output |  3.0mm | +12.5mm | 14.0mm |
 
-* snap to diagonal line, -0.5mm y offset
+* snap bottom to jacks +1.0mm y offset
 
-width*: width of the rectangle, with stroke
+width*: width of the rectangle, with stroke (can vary depending on text)
 
 ## Ornament Lines
 
@@ -72,6 +72,19 @@ width*: width of the rectangle, with stroke
 
 * B.Mask Boxes: 1mm stroke
 * TSKF y: 119mm
+
+## Holes
+
+|                     |       r |      d | layer     |
+| ------------------- | ------- | ------ | --------- |
+| mounting hole       |   1.6mm |  3.2mm | Drill     |
+| 3mm led             |   1.5mm |  3.0mm | Drill     |
+| 5mm led             |   2.5mm |  5.0mm | Drill     |
+| button              |   2.5mm |  5.0mm | Drill     |
+| illuminated button  |   4.0mm |  8.0mm | Edge.Cuts |
+| audio jack          | 3.125mm | 6.25mm | Drill     |
+| potentiometer       | 3.750mm | 7.50mm | Edge.Cuts |
+| small potentiometer | 3.375mm | 6.75mm | Edge.Cuts |
 
 ## Layers
 
