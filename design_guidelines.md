@@ -29,9 +29,12 @@ y*: position of helpline (0.5mm stroke)
 
 * copy Drill subgroup to Drill layer
 
-|        |        x |     y |
-| ------ | -------- | ----- |
-| F.Silk | centered | 122mm |
+| hp          | type       |        x |     y |
+| ----------- | ---------- | -------- | ----- |
+| < 8HP       | icon only  | centered | 122mm |
+| 8HP         | text_small |   13.5mm | 122mm |
+| 10HP - 12HP | text_small | centered | 122mm |
+| > 12HP      | text       | centered | 122mm |
 
 ## Labels
 
