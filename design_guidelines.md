@@ -12,8 +12,8 @@ stroke: 0.25mm
 | ----------- | -------- | ------ | ----------- | ------- | ----- | ----- |
 | module name |     15pt |      - | capitalized |     0px |  22mm | 5.7mm |
 | module desc |      8pt |      - |  lower case |     0px | ~50mm | 5.7mm |
-| big label   |      8pt | 0.15mm |  upper case |   0.5px |     - |     - |
 | small label |      6pt | 0.15mm |  upper case |   0.5px |     - |     - |
+| big label   |      8pt | 0.15mm |  upper case |   0.5px |     - |     - |
 | button      |      6pt | 0.10mm |  lower case |     0px |     - |     - |
 
 y*: position of helpline (0.5mm stroke)
