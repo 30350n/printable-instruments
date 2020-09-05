@@ -20,10 +20,12 @@ y*: position of helpline (0.5mm stroke)
 
 ## Module Icon
 
-|          |        x |       y |    w/h | stroke |
-| -------- | -------- | ------- | ------ | ------ |
-| F.Silk   | 15.000mm | 1.000mm | 5.80mm | 0.25mm |
-| F&#46;Cu | 14.875mm | 0.875mm | 6.05mm | 0.50mm |
+|          |        x |       y |    w/h* | stroke |
+| -------- | -------- | ------- | ------- | ------ |
+| F.Silk   | 15.000mm | 1.000mm |  5.80mm | 0.25mm |
+| F&#46;Cu | 14.875mm | 0.875mm |  6.05mm | 0.50mm |
+
+w/h*: with stroke
 
 ## PI Logo
 
@@ -38,11 +40,12 @@ y*: position of helpline (0.5mm stroke)
 
 ## Labels
 
-|             |       y* |
-| ----------- | -------- |
-| audio jack  |   -5.5mm |
-| 2PS knob    |  +12.5mm |
-| 3PS knob    |  +13.8mm |
+|                    |       y* |
+| ------------------ | -------- |
+| audio jack (above) |   -5.5mm |
+| audio jack (below) |   +7.0mm |
+| 2PS knob           |  +12.5mm |
+| 3PS knob           |  +13.8mm |
 
 y*: position of helpline (0.5mm stroke)
 
