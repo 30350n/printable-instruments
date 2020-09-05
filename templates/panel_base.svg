@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="panel_base.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg3149"
+   version="1.1"
+   viewBox="0 0 60.599998 128.5"
+   height="128.5mm"
+   width="60.599998mm">
+  <defs
+     id="defs3143" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="1912"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer9"
+     inkscape:document-units="mm"
+     inkscape:cy="259.72046"
+     inkscape:cx="7.16592"
+     inkscape:zoom="0.48188921"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata3146">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Mask" />
+  <g
+     inkscape:label="F.Mask"
+     id="layer2"
+     inkscape:groupmode="layer" />
+  <g
+     inkscape:label="B.Silk"
+     id="layer3"
+     inkscape:groupmode="layer" />
+  <g
+     inkscape:label="F.Silk"
+     id="layer4"
+     inkscape:groupmode="layer" />
+  <g
+     inkscape:label="B.Cu"
+     id="layer5"
+     inkscape:groupmode="layer" />
+  <g
+     inkscape:label="F.Cu"
+     id="layer6"
+     inkscape:groupmode="layer" />
+  <g
+     inkscape:label="Edge.Cuts"
+     id="layer7"
+     inkscape:groupmode="layer" />
+  <g
+     inkscape:label="Drill"
+     id="layer8"
+     inkscape:groupmode="layer" />
+  <g
+     inkscape:label="ref"
+     id="layer9"
+     inkscape:groupmode="layer" />
+  <g
+     inkscape:label="help"
+     id="layer10"
+     inkscape:groupmode="layer">
+    <g
+       inkscape:label="fab"
+       id="layer12" />
+  </g>
+  <g
+     inkscape:label="doku"
+     id="layer11"
+     inkscape:groupmode="layer" />
+</svg>
