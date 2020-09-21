@@ -21,6 +21,8 @@ Additionally to the Printable Instruments panel designs, this repository also co
 - [ ] Rings
 - [ ] Clouds
 - [ ] Ripples
+- [ ] Blinds
+- [ ] Veils
 
 **Warning: Unmarked panels are still in development and haven't been ordered/tested yet!**
 
