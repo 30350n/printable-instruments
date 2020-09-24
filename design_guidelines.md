@@ -16,6 +16,22 @@ stroke: 0.25mm
 | big label   |      8pt | 0.15mm |  upper case |   0.5px |     - |     - |
 | button      |      6pt | 0.10mm |  lower case |     0px |     - |     - |
 
+module name for panels <= 6HP:
+
+* x: centered
+* y*: 17mm
+* fonsize: 12pt
+
+### Label positions
+
+|            | y\* (below) | y\* (above) |
+| ---------- | ----------- | ----------- |
+| audio jack |      +7.0mm |      -5.5mm |
+| 1PS knob   |     +11.0mm |           - |
+| 2PS knob   |     +12.5mm |      -9.5mm |
+| 3PS knob   |     +13.8mm |           - |
+| 6PS knob   |     +21.5mm |           - |
+
 y*: position of helpline (0.5mm stroke)
 
 ## Module Icon
@@ -38,26 +54,16 @@ w/h*: with stroke
 | 10HP - 12HP | text_small | centered | 122mm |
 | > 12HP      | text       | centered | 122mm |
 
-## Labels
-
-|                    |       y* |
-| ------------------ | -------- |
-| audio jack (above) |   -5.5mm |
-| audio jack (below) |   +7.0mm |
-| 2PS knob           |  +12.5mm |
-| 3PS knob           |  +13.8mm |
-
-y*: position of helpline (0.5mm stroke)
-
 ## Frames
 
-|        | stroke |  width* | height |
-| ------ | ------ | ------- | ------ |
-| output |  3.0mm | +12.5mm | 14.0mm |
+|        | stroke |  height |
+| ------ | ------ | ------- |
+| output |  3.0mm |  14.0mm |
 
 * snap bottom to jacks +1.0mm y offset
 
-width*: width of the rectangle, with stroke (can vary depending on text)
+width: snap to bounding box, without stroke
+height: height of the rectangle, with stroke
 
 ## Ornament Lines
 
