@@ -41,6 +41,10 @@ y*: position of helpline (0.5mm stroke)
 | F.Silk   | 15.000mm | 1.000mm |  5.80mm | 0.25mm |
 | F&#46;Cu | 14.875mm | 0.875mm |  6.05mm | 0.50mm |
 
+for 4HP panels:
+
+* x: 11.500mm / 11.375mm
+
 w/h*: with stroke
 
 ## PI Logo
