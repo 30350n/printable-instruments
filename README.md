@@ -23,13 +23,15 @@ Additionally to the Printable Instruments panel designs, this repository also co
 - [ ] Ripples
 - [ ] Blinds
 - [ ] Veils
+- [ ] Frames
+- [ ] Links
 
 **Warning: Unmarked panels are still in development and haven't been ordered/tested yet!**
 
 ### Planned Panels
 
-- Frames
 - Braids
+- Kinks
 
 ## Credits
 
