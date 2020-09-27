@@ -42,9 +42,16 @@ Additionally to the Printable Instruments panel designs, this repository also co
 ## Generating Gerber files
 
 1. Install Inkscape, KiCad.
+
 2. Install the svg2shenzhen extension, according to [the installation instructions](https://github.com/badgeek/svg2shenzhen#install).
+
 3. Open a svg panel file in Inkscape.
-4. In Inkscape: Extensions -> Svg2Shenzhen -> 2. Export to KiCad...
+
+4. (optional) When ordering from a different service then JLC, change the "JLCJLCJLCJLC" text, to whatever your manufacturer is using as a template for order numbers.
+   Some manufacturers also have options to completely remove the number for a small premium.
+   You most certainly don't want the order number on the front of your panel.
+
+5. In Inkscape: Extensions -> Svg2Shenzhen -> 2. Export to KiCad...
 
    Recommended settings:
    |                |                 |
@@ -57,7 +64,11 @@ Additionally to the Printable Instruments panel designs, this repository also co
 
    Click **Apply**
 
-5. In Pcbnew: File -> Plot...
+6. By default, all the holes from the Drill layers will be plated through holes, while the bigger holes from the Edge.Cuts layer will be non plated.
+   To unfiy this, I'd recommend manually going through the holes in Pcbnew and changing their pad type to "NPTH, Mechanical".
+   Alternatively you can also try to edit the drill files after Step 8.
+
+7. In Pcbnew: File -> Plot...
 
    Recommended settings:
    |                 |                                                                     |
@@ -67,7 +78,7 @@ Additionally to the Printable Instruments panel designs, this repository also co
 
     Click **Plot**
 
-6. Click **Generate Drill Files...** (still in the Plot window)
+8. Click **Generate Drill Files...** (still in the Plot window)
 
    Recommended settings:
    |                 |                 |
