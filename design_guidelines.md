@@ -97,7 +97,7 @@ height: height of the rectangle, with stroke
 | 3mm led             |   1.5mm |  3.0mm | Drill     |
 | 5mm led             |   2.5mm |  5.0mm | Drill     |
 | button              |   2.5mm |  5.0mm | Drill     |
-| big button          |   5.0mm | 10.0mm | Edge.Cuts |
+| big button          |   4.5mm |  9.0mm | Edge.Cuts |
 | illuminated button  |   4.0mm |  8.0mm | Edge.Cuts |
 | audio jack          | 3.125mm | 6.25mm | Drill     |
 | potentiometer       | 3.750mm | 7.50mm | Edge.Cuts |
