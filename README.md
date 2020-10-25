@@ -18,13 +18,17 @@ Additionally to the Printable Instruments panel designs, this repository also co
 
 ### Available Panels
 
-- [ ] Rings
-- [ ] Clouds
-- [ ] Ripples
-- [ ] Blinds
+- [x] Rings *
+- [x] Clouds *
+- [x] Ripples *
+- [x] Blinds *
 - [ ] Veils
-- [ ] Frames
-- [ ] Links
+- [x] Frames *
+- [x] Links
+
+Panels marked with * are functional, but when I first ordered them from JLCPCB they had some visual flaws. JLCPCB seems to have a problem with filled silkscreen areas, where the silkscreen doesn't fully cover up the solder mask. Sometimes there are also visible lines in those areas.
+If somebody orders these from a different manufacturer, be sure to share your experience with them.
+I'll still try to come up with an alternative design which doesn't have any big filled areas anymore.
 
 **Warning: Unmarked panels are still in development and haven't been ordered/tested yet!**
 
