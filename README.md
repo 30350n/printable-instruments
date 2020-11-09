@@ -20,17 +20,17 @@ Additionally to the Printable Instruments panel designs, this repository also co
 
 - [x] Rings *
 - [x] Clouds *
-- [x] Ripples *
+- [x] Ripples (2015) *
 - [x] Blinds *
-- [ ] Veils
-- [x] Frames *
+- [x] Veils (2016) *
+- [x] Frames * (button holes of the first iteration where a little too large for my taste)
 - [x] Links
 
 Panels marked with * are functional, but when I first ordered them from JLCPCB they had some visual flaws. JLCPCB seems to have a problem with filled silkscreen areas, where the silkscreen doesn't fully cover up the solder mask. Sometimes there are also visible lines in those areas.
 If somebody orders these from a different manufacturer, be sure to share your experience with them.
-I'll still try to come up with an alternative design which doesn't have any big filled areas anymore.
+I'll try to come up with an alternative design which doesn't have any big filled areas anymore.
 
-**Warning: Unmarked panels are still in development and haven't been ordered/tested yet!**
+**Warning: Unchecked panels are still in development and haven't been ordered/tested yet!**
 
 ### Planned Panels
 
@@ -70,7 +70,7 @@ I'll still try to come up with an alternative design which doesn't have any big 
 
 6. (deprecated) By default, all the holes from the Drill layers will be plated through holes, while the bigger holes from the Edge.Cuts layer will be non plated.
    ~~To unfiy this, I'd recommend manually going through the holes in Pcbnew and changing their pad type to "NPTH, Mechanical". Alternatively you can also try to edit the drill files after Step 8.~~
-   The plated holes are actually not only fine, but wanted. With non plated holes the "fake vias" in the logo will look bad.
+   Update: The plated holes actually aren't only fine, but necessary. With non plated holes the "fake vias" of the logo will look bad.
 
 7. In Pcbnew: File -> Plot...
 
