@@ -2,16 +2,16 @@ import os, subprocess, shutil
 from functools import partial
 from PIL import Image, ImageDraw
 
-output = "overview.png"
+output = "images/overview.png"
 height = 5140
-directory = ".."
+directory = "."
 workdir = os.path.join(".", "tmp")
 
 if not os.path.exists(workdir):
     os.mkdir(workdir)
 
 images = []
-for filepath in sorted(map(partial(os.path.join, directory), os.listdir(directory)), key=os.path.getctime):
+for filepath in sorted(map(partial(os.path.join, directory), os.listdir(directory))):
     if os.path.isfile(filepath) and filepath.endswith(".svg") and not filepath.endswith("_template.svg"):
         pngpath = os.path.join(workdir, os.path.basename(filepath).split(".")[0] + ".png")
         
