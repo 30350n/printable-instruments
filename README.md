@@ -43,6 +43,10 @@ I'll try to come up with an alternative design which doesn't have any big filled
 
 - The **[Mutated Mutables](https://github.com/TheSlowGrowth/MutatedMutables)** repository has been very helpful for figuring out the Inkscape to KiCad workflow. Some graphics from the "Doku" layer have been directly adopted in this repository.
 
+## Derivative Work
+
+- [angiamusic](https://github.com/angiamusic) made a really nice [Frames panel](https://github.com/angiamusic/Valance_Panel) based on this project
+
 ## Generating Gerber files
 
 1. Install Inkscape, KiCad.
