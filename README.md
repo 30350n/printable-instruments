@@ -18,17 +18,13 @@ Additionally to the Printable Instruments panel designs, this repository also co
 
 ### Available Panels
 
-- [x] Rings *
-- [x] Clouds *
-- [x] Ripples (2015) *
-- [x] Blinds *
-- [x] Veils (2016) *
-- [x] Frames * (button holes of the first iteration where a little too large for my taste)
+- [x] Rings
+- [x] Clouds
+- [x] Ripples (2015)
+- [x] Blinds
+- [x] Veils (2016)
+- [x] Frames
 - [x] Links
-
-Panels marked with * are functional, but when I first ordered them from JLCPCB they had some visual flaws. JLCPCB seems to have a problem with filled silkscreen areas, where the silkscreen doesn't fully cover up the solder mask. Sometimes there are also visible lines in those areas.
-If somebody orders these from a different manufacturer, be sure to share your experience with them.
-I'll try to come up with an alternative design which doesn't have any big filled areas anymore.
 
 **Warning: Unchecked panels are still in development and haven't been ordered/tested yet!**
 
@@ -36,6 +32,7 @@ I'll try to come up with an alternative design which doesn't have any big filled
 
 - Braids
 - Kinks
+- Marbles
 
 ## Credits
 
@@ -62,19 +59,20 @@ I'll try to come up with an alternative design which doesn't have any big filled
 5. In Inkscape: Extensions -> Svg2Shenzhen -> 2. Export to KiCad...
 
    Recommended settings:
-   |                |                 |
-   | -------------- | --------------- |
-   | Export As      | **Project**     |
-   | Threshold      | **Default (5)** |
-   | Export DPI     | **1016**        |
-   | Flatten Bezier | **yes**         |
-   | Open Kicad     | **yes**         |
+   |                |                    |
+   | -------------- | ------------------ |
+   | Export As      | **Project**        |
+   | Threshold      | **Default (5)**    |
+   | Export DPI     | **Default (1200)** |
+   | Flatten Bezier | **yes**            |
+   | Open Kicad     | **yes**            |
 
    Click **Apply**
 
-6. (deprecated) By default, all the holes from the Drill layers will be plated through holes, while the bigger holes from the Edge.Cuts layer will be non plated.
-   ~~To unfiy this, I'd recommend manually going through the holes in Pcbnew and changing their pad type to "NPTH, Mechanical". Alternatively you can also try to edit the drill files after Step 8.~~
-   Update: The plated holes actually aren't only fine, but necessary. With non plated holes the "fake vias" of the logo will look bad.
+6. By default, all the holes from the Drill layers will be plated through holes, which will leave a small, visible ring
+   of copper exposed.
+   To fix this, I'd recommend manually going through all the holes, except the small vias from the bottom logo
+   (because for those, the effect is actually wanted) in Pcbnew and changing their pad type to "NPTH, Mechanical".
 
 7. In Pcbnew: File -> Plot...
 
@@ -95,3 +93,17 @@ I'll try to come up with an alternative design which doesn't have any big filled
    | Drill Units     | **Millimeters** |
 
    Click **Generate Drill File**
+
+## Older Versions
+
+- ### Version 1.0
+  
+  I wasn't completely happy with this first version design wise,
+  mainly because many of the module icon designs where copied from the original MI panel designs.
+  The icons which weren't, also had some consistency issues, which I tried to resolve.
+
+  They also had some visible flaws, when I first ordered them from JLCPCB.
+  Many of the (cheaper) PCB Manufacturers seem to have a problem with filled silkscreen areas,
+  where the silkscreen doesn't fully cover up the solder mask.
+  Sometimes there are also visible lines in those areas.
+  Because of that, all the filled areas got removed.
