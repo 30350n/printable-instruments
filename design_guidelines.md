@@ -12,9 +12,10 @@ stroke: 0.25mm
 | ----------- | -------- | ------ | ----------- | ------- | ----- | ----- |
 | module name |     15pt |      - | capitalized |     0px |  22mm | 5.7mm |
 | module desc |      8pt |      - |  lower case |     0px | ~50mm | 5.7mm |
-| small label |      6pt | 0.15mm |  upper case |   0.5px |     - |     - |
-| big label   |      8pt | 0.15mm |  upper case |   0.5px |     - |     - |
-| button      |      6pt | 0.10mm |  lower case |     0px |     - |     - |
+| pot label   |      6pt | 0.15mm |  upper case |   0.5px |     - |     - |
+| jack label  |      7pt | 0.15mm |  upper case |   0.5px |     - |     - |
+| pot n label |      7pt | 0.15mm |  upper case |   0.5px |     - |     - |
+| small label |      4pt | 0.10mm |  upper case |   0.5px |     - |     - |
 
 module name for panels <= 6HP:
 
@@ -27,7 +28,7 @@ module name for panels <= 6HP:
 |            | y\* (below) | y\* (above) |
 | ---------- | ----------- | ----------- |
 | audio jack |      +7.0mm |      -5.5mm |
-| 1PS knob   |     +11.0mm |           - |
+| 1PS knob   |     +12.0mm |           - |
 | 2PS knob   |     +12.5mm |      -9.5mm |
 | 3PS knob   |     +13.8mm |           - |
 | 6PS knob   |     +21.5mm |           - |
