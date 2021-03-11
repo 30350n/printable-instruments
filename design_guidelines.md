@@ -14,8 +14,8 @@ stroke: 0.25mm
 | module desc |      8pt |      - |  lower case |     0px | ~50mm | 5.7mm |
 | pot label   |      6pt | 0.15mm |  upper case |   0.5px |     - |     - |
 | jack label  |      7pt | 0.15mm |  upper case |   0.5px |     - |     - |
-| pot n label |      7pt | 0.15mm |  upper case |   0.5px |     - |     - |
-| small label |      4pt | 0.10mm |  upper case |   0.5px |     - |     - |
+| pot N label |      7pt | 0.15mm |  upper case |   0.5px |     - |     - |
+| small label |    4.5pt | 0.10mm |  upper case |   0.5px |     - |     - |
 
 module name for panels <= 6HP:
 
