@@ -25,6 +25,7 @@ Additionally to the Printable Instruments panel designs, this repository also co
 - [x] Veils (2016)
 - [x] Frames
 - [x] Links
+- [ ] Marbles
 
 **Warning: Unchecked panels are still in development and haven't been ordered/tested yet!**
 
@@ -32,7 +33,6 @@ Additionally to the Printable Instruments panel designs, this repository also co
 
 - Braids
 - Kinks
-- Marbles
 
 ## Credits
 
