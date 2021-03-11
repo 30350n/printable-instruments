@@ -65,10 +65,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="54.442652"
-     inkscape:cy="161.48892"
+     inkscape:cx="68.622747"
+     inkscape:cy="233.2556"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer9"
+     inkscape:current-layer="layer11"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
@@ -177,7 +177,7 @@
        r="3.125"
        style="display:inline;fill:#020000;fill-opacity:1;stroke:none;stroke-width:0.200001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.79528;stroke-opacity:1"
        id="path26978-36-4-4-2-25-8-6-8-7-9-1-3-6"
-       cx="48.808186"
+       cx="48.432941"
        cy="111.08307" />
     <circle
        r="3.125"
@@ -2318,7 +2318,7 @@
     <circle
        r="4.0000005"
        cy="-111.08307"
-       cx="48.808186"
+       cx="48.432941"
        id="circle38475-0"
        style="display:inline;fill:#b1b1b1;fill-opacity:1;stroke:none;stroke-width:0.451556;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
        inkscape:label="jack_8mm"
