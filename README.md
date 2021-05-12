@@ -25,7 +25,7 @@ Additionally to the Printable Instruments panel designs, this repository also co
 - [x] Veils (2016)
 - [x] Frames
 - [x] Links
-- [ ] Marbles
+- [x] Marbles
 
 **Warning: Unchecked panels are still in development and haven't been ordered/tested yet!**
 
@@ -100,10 +100,10 @@ Additionally to the Printable Instruments panel designs, this repository also co
   
   I wasn't completely happy with this first version design wise,
   mainly because many of the module icon designs where copied from the original MI panel designs.
-  The icons which weren't, also had some consistency issues, which I tried to resolve.
+  The icons which weren't also had some consistency issues which I tried to resolve.
 
-  They also had some visible flaws, when I first ordered them from JLCPCB.
+  They also had some visible flaws when I first ordered them from JLCPCB.
   Many of the (cheaper) PCB Manufacturers seem to have a problem with filled silkscreen areas,
   where the silkscreen doesn't fully cover up the solder mask.
   Sometimes there are also visible lines in those areas.
-  Because of that, all the filled areas got removed.
+  Because of that all the filled areas got removed.
