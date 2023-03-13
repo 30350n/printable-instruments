@@ -12,9 +12,9 @@ Additionally to the Printable Instruments panel designs, this repository also co
 
 ![overview](https://raw.githubusercontent.com/30350n/printable-instruments/master/images/overview.webp)
 
-### Example Render from the KiCad 3D Viewer
+### Example Render using pcb2blender
 
-![clouds_rendered](https://raw.githubusercontent.com/30350n/printable-instruments/master/images/clouds_rendered.png)
+![braids_rendered](https://raw.githubusercontent.com/30350n/printable-instruments/master/images/braids_rendered.webp)
 
 ### Available Panels
 
