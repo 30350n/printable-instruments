@@ -1,4 +1,4 @@
-[![cc-by-sa](https://img.shields.io/badge/License-CC%20BY%20SA%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/3.0/)
+[![cc-by-sa](https://img.shields.io/badge/license-CC%20BY%20SA%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/3.0/)
 
 # ![logo](https://raw.githubusercontent.com/30350n/printable-instruments/master/images/logo_text.png)
 
@@ -10,7 +10,7 @@ Additionally to the Printable Instruments panel designs, this repository also co
 
 ## Overview
 
-![overview](https://raw.githubusercontent.com/30350n/printable-instruments/master/images/overview.png)
+![overview](https://raw.githubusercontent.com/30350n/printable-instruments/master/images/overview.webp)
 
 ### Example Render from the KiCad 3D Viewer
 
@@ -26,12 +26,12 @@ Additionally to the Printable Instruments panel designs, this repository also co
 - [x] Frames
 - [x] Links
 - [x] Marbles
+- [ ] Braids
 
 **Warning: Unchecked panels are still in development and haven't been ordered/tested yet!**
 
 ### Planned Panels
 
-- Braids
 - Kinks
 
 ## Credits

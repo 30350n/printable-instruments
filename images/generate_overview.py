@@ -2,8 +2,8 @@ import os, subprocess, shutil
 from functools import partial
 from PIL import Image, ImageDraw
 
-output = "images/overview.png"
-height = 5140
+output = "images/overview.webp"
+height = 1285 * 2
 directory = "."
 workdir = os.path.join(".", "tmp")
 
