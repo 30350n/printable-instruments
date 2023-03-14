@@ -44,7 +44,14 @@ Additionally to the Printable Instruments panel designs, this repository also co
 
 - [angiamusic](https://github.com/angiamusic) made a really nice [Frames panel](https://github.com/angiamusic/Valance_Panel) based on this project
 
-## Generating Gerber files
+## Getting the Gerber files
+
+**Note: for v2.0+ there's pregenerated gerber files in the [latest release](https://github.com/30350n/printable-instruments/releases/latest).** 
+
+You can simply download the `printable-instruments-gerbers.zip`, unpack it and upload any of
+the contained gerber archives to your favorite board house.
+
+### Generating the Gerber files yourself
 
 1. Install Inkscape, KiCad.
 
