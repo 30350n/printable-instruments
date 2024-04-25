@@ -2,19 +2,29 @@
 
 # ![logo](https://raw.githubusercontent.com/30350n/printable-instruments/master/images/logo_text.png)
 
-The Printable Instruments project provides custom PCB panel designs for Mutable Instruments modules. These panels are meant to be ordered from [JLCPCB](https://jlcpcb.com/), but can be easily modified to work with other manufacturers.
+The Printable Instruments project provides custom PCB panel designs for Mutable Instruments modules.
+These panels are meant to be ordered from PCB manufacturers such as [PCBWay](https://www.pcbway.com/)
+or [JLCPCB](https://jlcpcb.com/).
 
-All the panels are created using Inkscape. The Inkscape extension [svg2shenzhen](https://github.com/badgeek/svg2shenzhen) is used to generate a KiCad project from the Inkscape svg, which can then be used to generate gerber files.
+All the panels are created using Inkscape.
+The Inkscape extension [svg2shenzhen](https://github.com/badgeek/svg2shenzhen) is used to
+generate a KiCad project from the Inkscape svg, which can then be used to generate gerber files.
 
-Additionally to the Printable Instruments panel designs, this repository also contains panel templates, which can be used to easily create your own designs.
+Additionally to the Printable Instruments panel designs, this repository also contains panel
+templates, which can be used to easily create your own designs.
+
+## Version 2.0 Sponsorship
+
+The development of the Braids panel and the 2.0 release of this project was generously sponsored
+by [PCBWay](https://www.pcbway.com/), who provided free samples of the Braids panel!
 
 ## Overview
 
-![overview](https://raw.githubusercontent.com/30350n/printable-instruments/master/images/overview.webp)
+![overview](images/overview.webp)
 
-### Example Render using pcb2blender
+### Braids panel, manufactured by [![PCBWay](https://img.shields.io/badge/PCBWAY-11A73B?style=for-the-badge)](https://www.pcbway.com/)
 
-![braids_rendered](https://raw.githubusercontent.com/30350n/printable-instruments/master/images/braids_rendered.webp)
+![braids_pcbway](images/braids_pcbway.webp)
 
 ### Available Panels
 
@@ -26,13 +36,9 @@ Additionally to the Printable Instruments panel designs, this repository also co
 - [x] Frames
 - [x] Links
 - [x] Marbles
-- [ ] Braids
+- [x] Braids
 
 **Warning: Unchecked panels are still in development and haven't been ordered/tested yet!**
-
-### Planned Panels
-
-- Kinks
 
 ## Credits
 
